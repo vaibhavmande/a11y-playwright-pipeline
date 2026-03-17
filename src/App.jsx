@@ -1,5 +1,3 @@
-import hero from './assets/hero.png'
-
 function App() {
   return (
     <div style={{ padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
@@ -9,11 +7,6 @@ function App() {
       
       <div>
         <input type="text" placeholder="Search..." />
-      </div>
-      
-      <div>
-        <img src={hero} width="200" alt="Hero image" />
-        <p>This is a decorative image</p>
       </div>
       
       <h2>Navigation</h2>
